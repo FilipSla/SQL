@@ -6,4 +6,4 @@ using [Visual Studio Code](https://code.visualstudio.com),
 the rest using the provided editor on
 [sql-practice.com](https://sql-practice.com).
 
-All my solutions are in the attached [json](savefile_sql-practice.com.json) file, some of them are in [query.sql](query.sql).
+My solutions are in the attached [json file](savefile_sql-practice.com.json) and in [sql file](query.sql).
