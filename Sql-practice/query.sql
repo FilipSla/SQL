@@ -1,9 +1,3 @@
-SELECT ceil(weight / 10) * 10 AS weightGroup,
-    COUNT(*) AS patientCount
-FROM patients
-GROUP BY weightGroup
-ORDER BY weightGroup DESC;
--------------------------------------
 SELECT patient_id,
     weight,
     height,
@@ -60,15 +54,6 @@ SELECT first_name,
     last_name
 FROM patients
 WHERE weight BETWEEN 100 AND 120;
------------------------
-SELECT DISTINCT YEAR(birth_date) AS uniqueBirthYear
-FROM patients
-ORDER BY uniqueBirthYear ASC;
-----------------------
-SELECT patient_id,
-    first_name
-FROM patients
-WHERE first_name LIKE 's__%__s';
 -----------------------------
 SELECT p.patient_id,
     p.first_name,
