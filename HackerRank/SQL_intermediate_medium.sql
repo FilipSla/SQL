@@ -79,3 +79,20 @@ FROM students s
 ORDER BY g.grade DESC,
     NAME,
     s.marks;
+/* Draw the triangle */
+DECLARE @a INT = 1 WHILE @a <= 20
+BEGIN
+SELECT replicate('* ', @a)
+SET @a = @a + 1
+END
+/* Symmetric Pairs */
+SELECT f1.x,
+    f1.y
+FROM Functions f1
+    INNER JOIN Functions f2 ON f1.x = f2.y
+    AND f1.y = f2.x
+GROUP BY f1.x,
+    f1.y
+HAVING COUNT(f1.x) > 1
+    OR f1.x < f1.y
+ORDER BY f1.x
