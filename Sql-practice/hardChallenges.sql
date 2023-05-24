@@ -10,7 +10,8 @@ SELECT e.first_name,
     END AS Shipped
 FROM employees e
     INNER JOIN orders o ON e.employee_id = o.employee_id
-GROUP BY e.employee_id,
+GROUP BY e.first_name,
+    e.last_name,
     Shipped
 ORDER BY last_name,
     first_name,
