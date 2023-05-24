@@ -15,3 +15,6 @@
 3. VanArsdel database
     - In Azure Data Studio developed by Microsoft, I wrote queries in the well-known VanArsdel database.
     - Queries are visible [here](/OtherPractice/)
+
+4. Online solutions
+    [StrataScratch](https://platform.stratascratch.com/user/Sl)
