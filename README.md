@@ -17,4 +17,4 @@
     - Queries are visible [here](/OtherPractice/)
 
 4. Online solutions
-    [StrataScratch](https://platform.stratascratch.com/user/Sl)
+    - [StrataScratch](https://platform.stratascratch.com/user/Sl)
